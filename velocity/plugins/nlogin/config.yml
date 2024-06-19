@@ -1,0 +1,597 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |                                          __             _                                    | #
+# |                                 _ __   / /  ___   __ _(_)_ __                                | #
+# |                                | '_ \ / /  / _ \ / _` | | '_ \                               | #
+# |                                | | | / /__| (_) | (_| | | | | |                              | #
+# |                                |_| |_\____/\___/ \__, |_|_| |_|                              | #
+# |                                                    |___/                                     | #
+# |                                                                                              | #
+# |                      A practical, secure and friendly authentication plugin                  | #
+# |                                                                                              | #
+# |                                © 2024 - Powered by nickuc.com                                | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  For a better understanding of this file see our documentation:                              | #
+# |   ==> https://docs.nickuc.com/nlogin/                                                        | #
+# |                                                                                              | #
+# |  New options are not automatically added in this file. Default values are used               | #
+# |  if an option is not found.                                                                  | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+# Set the version of the file.
+language-version: 2
+
+# Sets the debugging mode.
+# - This option is used to find problems in the plugin.
+debug: false
+
+# Set the language of the plugin
+#
+# - Available translations:
+#
+#  |=> Arabic: messages_ar.yml
+#  |=> Chinese: messages_cn.yml
+#  |=> Czech: messages_cz.yml
+#  |=> German: messages_de.yml
+#  |=> English: messages_en.yml
+#  |=> Spanish: messages_es.yml
+#  |=> French: messages_fr.yml
+#  |=> Hungarian: messages_hu.yml
+#  |=> Indonesian: messages_id.yml
+#  |=> Italian: messages_it.yml
+#  |=> Lithuanian: messages_lt.yml
+#  |=> Polish: messages_pl.yml
+#  |=> Portuguese: messages_br.yml
+#  |=> Romanian: messages_ro.yml
+#  |=> Russian: messages_ru.yml
+#  |=> Turkish: messages_tr.yml
+#  |=> Ukrainian: messages_ua.yml
+#  |=> Vietnamese: messages_vn.yml
+#  |=> Other languages: https://github.com/nickuc/OpeNLogin/blob/master/docs/lang.md
+#
+# - When changing the language, the current file can be reset.
+language-file: "messages_en.yml"
+
+#      ___      _        _
+#     /   \__ _| |_ __ _| |__   __ _ ___  ___
+#    / /\ / _` | __/ _` | '_ \ / _` / __|/ _ \
+#   / /_// (_| | || (_| | |_) | (_| \__ \  __/
+#  /___,' \__,_|\__\__,_|_.__/ \__,_|___/\___|
+
+# Database settings.
+database:
+  # Sets the type of database used.
+  #
+  # - Options available:
+  #  |=> MariaDB
+  #  |=> MySQL
+  #  |=> SQLite
+  type: SQLite
+
+  remote:
+    # Defines MariaDB/MySQL information.
+    # - Tutorial for installation: https://docs.nickuc.com/nlogin/mysql
+    hostname: "localhost:3306"
+    database: "nLogin"
+    username: "root"
+    password: ""
+
+    # Set the connection properties.
+    # - Don't change this information if you don't know what you are doing!
+    properties:
+      #useSSL: false
+      #sslMode: disable
+      #verifyServerCertificate: false
+      useUnicode: true
+      characterEncoding: "utf8"
+
+  # Defines the connection pool settings.
+  # - Don't change this information if you don't know what you are doing!
+  pool-settings:
+    maximum-pool-size: 10
+    minimum-idle: 10
+    maximum-lifetime: 1800000 # 30 minutes
+    connection-timeout: 5000 # 5 seconds
+
+  table:
+    account:
+      # Sets the name of the nLogin accounts table.
+      # - Don't change this information if you don't know what you are doing!
+      table-name: "nlogin"
+
+      # Sets the name of the columns.
+      # - Don't change this information if you don't know what you are doing!
+      columns:
+        ai: "ai"
+        last-name: "last_name"
+        unique-id: "unique_id"
+        mojang-id: "mojang_id"
+        bedrock-id: "bedrock_id"
+        password: "password"
+        premium: "premium"
+        last-ip: "last_ip"
+        last-seen: "last_seen"
+        creation-date: "creation_date"
+        email: "email"
+        discord: "discord"
+        settings: "settings"
+
+    data:
+      # Sets the name of the nLogin data table.
+      # - Don't change this information if you don't know what you are doing!
+      table-name: "nlogin_data"
+
+      # Sets the name of the columns.
+      # - Don't change this information if you don't know what you are doing!
+      columns:
+        id: "id"
+        key: "key"
+        value: "value"
+
+#                                    _
+#    /\/\   ___  ___ ___  __ _  __ _(_)_ __   __ _
+#   /    \ / _ \/ __/ __|/ _` |/ _` | | '_ \ / _` |
+#  / /\/\ \  __/\__ \__ \ (_| | (_| | | | | | (_| |
+#  \/    \/\___||___/___/\__,_|\__, |_|_| |_|\__, |
+#                              |___/         |___/
+
+# Messaging service settings
+redis:
+  # Defines Redis information.
+  enabled: false
+  hostname: localhost
+  username: ""
+  password: ""
+  ssl: false
+
+#                           _____       _             __
+#   /\ /\  ___  ___ _ __    \_   \_ __ | |_ ___ _ __ / _| __ _  ___ ___
+#  / / \ \/ __|/ _ \ '__|    / /\/ '_ \| __/ _ \ '__| |_ / _` |/ __/ _ \
+#  \ \_/ /\__ \  __/ |    /\/ /_ | | | | ||  __/ |  |  _| (_| | (_|  __/
+#   \___/ |___/\___|_|    \____/ |_| |_|\__\___|_|  |_|  \__,_|\___\___|
+
+# User Interface settings.
+ui:
+  # Sets whether on-screen messages will be sent.
+  use-title-bar: true
+
+  # Sets whether messages in actionbars will be sent.
+  use-action-bar: true
+
+  # Sets whether the time remaining message will be sent.
+  actionbar-counter: true
+
+  # Sets whether sound effects will be sent.
+  use-sounds: true
+
+  # Sets whether interactive messages will be sent.
+  use-chat-component: true
+
+#     __        _
+#     \ \  ___ (_)_ __
+#      \ \/ _ \| | '_ \
+#   /\_/ / (_) | | | | |
+#   \___/ \___/|_|_| |_|
+
+# Join configuration.
+join:
+  # Sets whether the chat should be cleaned upon joining the server.
+  clean-chat-on-join: true
+
+  # Sets whether the join message will be removed.
+  remove-join-message: true
+
+#   _____     _                       _
+#  /__   \___| | ___ _ __   ___  _ __| |_
+#    / /\/ _ \ |/ _ \ '_ \ / _ \| '__| __|
+#   / / |  __/ |  __/ |_) | (_) | |  | |_
+#   \/   \___|_|\___| .__/ \___/|_|   \__|
+#                   |_|
+
+# Teleport settings.
+teleport:
+  # Sets whether the player will be teleported to a safe position upon entering.
+  # - It is recommended to activate the option if no spawn has been set.
+  safe-location: false
+
+  # Defines if the player will be teleported to the last location upon exit.
+  last-location: true
+
+  # Defines if the player will be teleported to the spawn upon death.
+  teleport-on-death: true
+
+#     __ _           _
+#    / /(_)_ __ ___ | |__   ___
+#   / / | | '_ ` _ \| '_ \ / _ \
+#  / /__| | | | | | | |_) | (_) |
+#  \____/_|_| |_| |_|_.__/ \___/
+
+# Limbo settings.
+# - Limbo is the player information protection system.
+# - In case of an abrupt shutdown (e.g. power failure), the
+#   limbo files will go into action.
+limbo:
+  # Defines whether the limbo should hide the players' information.
+  #
+  # => Player info list:
+  #  - speed and flight mode;
+  #  - speed when walking;
+  #  - life;
+  #  - satiety;
+  #  - [...]
+  #
+  # - It is recommended to disable this option in case of conflicts with other
+  #   plugins that handle these options (e.g. lobby plugins).
+  hide-player-stats: true
+
+  # Sets the time to wait for player information to be hidden.
+  #
+  # => The value provided must be in ticks. To calculate the required ticks,
+  #    multiply the value (in seconds) by 20.
+  #
+  #   - Example:
+  #      2 seconds X 20 ticks = 40 ticks
+  #
+  hide-player-stats-delay: 0
+
+  inventory:
+    # Sets whether items should be hidden before logging in.
+    hide-inventory: true
+
+  # Sets whether other players should be hidden before logging in.
+  # - This option can prevent spamming of bots in the server's player list.
+  hide-players-before-login: true
+
+  # Defines whether the movement should be locked before authenticating.
+  block-player-walk: true
+
+  # Defines whether the blinding effect will be added before logging in.
+  blindness-effect: false
+
+#     ___                    _
+#    / _ \_ __ ___ _ __ ___ (_)_   _ _ __ ___   __/\__
+#   / /_)/ '__/ _ \ '_ ` _ \| | | | | '_ ` _ \  \    /
+#  / ___/| | |  __/ | | | | | | |_| | | | | | | /_  _\
+#  \/    |_|  \___|_| |_| |_|_|\__,_|_| |_| |_|   \/
+
+# Paid features of the plugin (premium version).
+premium:
+  username-appender:
+    # Sets whether the plugin should add an extension to the nickname.
+    # - This feature is recommended to differentiate premium players from offline players.
+    #
+    # - You can change this option freely: players' data will not be lost.
+    #
+    # - For more information, please access the documentation:
+    #    * https://docs.nickuc.com/nlogin/username-appender
+    #
+    enabled: true
+
+    premium:
+      # Sets the prefix/suffix added to premium player nicknames.
+      username-appendix: ""
+
+      # Sets the position of the appendix added to premium player nicknames.
+      #
+      # - Options available:
+      #  |=> PREFIX (before nickname)
+      #  |=> SUFFIX (after nickname)
+      #
+      position: "suffix"
+
+      # Defines the list of domains that will be used to identify premium players.
+      # - Regex expressions are accepted.
+      # - The domains to be checked will always be in lower case.
+      domains:
+        #- "premium.myserver.com"
+
+    offline:
+      # Sets the prefix/suffix added to offline player nicknames.
+      username-appendix: "+"
+
+      # Sets the position of the appendix added to offline player nicknames.
+      #
+      # - Options available:
+      #  |=> PREFIX (before nickname)
+      #  |=> SUFFIX (after nickname)
+      #
+      position: "suffix"
+
+      # Defines the list of domains that will be used to identify offline players.
+      # - Regex expressions are accepted.
+      # - The domains to be checked will always be in lower case.
+      domains:
+        #- "myserver.com"
+
+  legacy:
+    # Defines the type of unique id for users.
+    #
+    # - Options available:
+    #  |=> REAL [recommended]
+    #  |=> RANDOM
+    #  |=> OFFLINE
+    #
+    # - You can change this option freely: already registered users
+    #   will NOT be affected by this change. Consequently, your users will
+    #   continue to have the items and achievements after the change.
+    #
+    # - For more information, access the documentation:
+    #    * https://docs.nickuc.com/nlogin/uuid
+    #
+    #  (!) This option is only available if the "username-appender" option is disabled.
+    #
+    unique-id-type: OFFLINE
+
+    # Defines if players with premium nickname should be challenged on first login.
+    # - By activating this option, players will be registered as premium automatically.
+    #
+    #  (!) Offline players who are using a premium account nickname will receive a
+    #      non-customizable "Invalid session" message upon first login to the server.
+    #
+    #  (!) This option is only available if the "username-appender" and "restrict-premium-nicknames" options are disabled.
+    #
+    challenge-if-premium-nickname: true
+
+    # Defines whether premium nicknames will be restricted to premium players.
+    # - By enabling this option, an offline player will not be able to use a premium nickname.
+    #
+    #  (!) This option is only available if the "username-appender" option is disabled.
+    #
+    restrict-premium-nicknames: false
+
+    # Sets whether players should receive a notification asking if their accounts are premium.
+    # - This option is recommended if you want to ensure that premium players receive the Mojang UUID.
+    premium-question: true
+
+    # Defines whether the UUID should be replaced by the mojang UUID when a premium player changes nickname (except if the UUID is RANDOM or BEDROCK).
+    #
+    #  (!) Premium player data may not be migrated if you activate this option,
+    #      but the cosmetics will appear after the nickname change.
+    #
+    # - For more information, access the documentation:
+    #    * https://docs.nickuc.com/nlogin/uuid
+    #
+    update-id-after-transfer: false
+
+  autologin:
+    bedrock:
+      # Defines whether Bedrock players should authenticate automatically.
+      # - You can change this setting freely: already registered users
+      #   will NOT be vulnerable by this change
+      enabled: true
+
+      # Sets whether Bedrock players should skip registration.
+      # - It is recommended to disable this option if you use player passwords
+      #   in a web integration (e.g. server site).
+      skip-register: true
+
+      # Defines whether the database UUID will be used instead of the one provided by Floodgate.
+      use-database-uuid: false
+
+    premium:
+      # Defines whether premium players should authenticate automatically.
+      # - You can change this setting freely: already registered users
+      #   will NOT be vulnerable by this change
+      enabled: true
+
+      # Defines whether premium players should skip registration.
+      # - It is recommended to disable this option if you use player passwords
+      #   in a web integration (e.g. server site).
+      skip-register: true
+
+    session:
+      # Defines whether login sessions will be used.
+      # - Authentication will be ignored if the player logs in at the timeout
+      #   and continues using the same IP address.
+      enabled: true
+
+      # Sets the duration (in minutes) of login sessions.
+      # => Very long session times may open vulnerabilities if the player's IP
+      #    is public (proxies, public VPNs, shared networks)
+      #    or if it switches too quickly (on ISPs with dynamic IP).
+      #
+      # - To make a session permanent use the value 0. However, this is inadvisable.
+      duration: 5
+
+#     _       _                               _
+#    /_\   __| |_   ____ _ _ __   ___ ___  __| |
+#   //_\\ / _` \ \ / / _` | '_ \ / __/ _ \/ _` |
+#  /  _  \ (_| |\ V / (_| | | | | (_|  __/ (_| |
+#  \_/ \_/\__,_| \_/ \__,_|_| |_|\___\___|\__,_|
+
+# Advanced features of the plugin.
+advanced:
+  unrestricted:
+    # Defines the nicknames that will skip the authentication process.
+    #
+    # - This option can be useful for MODS or plugins that spoof
+    #   the behavior of a player.
+    #
+    #   - Examples:
+    #    - '[ThaumcraftTablet]'
+    #    - '[BuildCraft]'
+    #    - 'ComputerCraft'
+    #
+    # => Use this feature at your own risk.
+    unrestricted-names: []
+
+    # Sets the name of the inventories that will not be locked before login.
+    # - If you are a developer, it is best to use a higher priority for
+    #   your inventory event (e.g. HIGH or HIGHEST), and then remove
+    #   the nLogin cancel - "Event#setCancelled(false)"
+    unrestricted-inventories: []
+
+  # Client (player) related resources.
+  client:
+    # Define whether the nLogin language should be adapted to the Minecraft language.
+    language-by-client: false
+
+    # Defines the list of commands to be executed after registering.
+    #
+    # - Options available:
+    #  |=> @console: executes the command on the console.
+    #  |=> @delay <time in ticks>: adds a delay to the command.
+    #  |=> @proxy: runs the command on the proxy server (only if you are using one).
+    #  |=> @server <servers divided by ",">: executes the command only if the player is connected to a
+    #      list of specific servers (only if using a proxy server).
+    #
+    #      Example: @server lobby1,lobby2
+    #
+    commands-after-register:
+      #- "@console tell @player Welcome to the server!" # run in console
+      #- "@delay 40 /kit starter" # wait for 40 ticks (2s)
+
+    # Defines the list of commands to be executed after authenticating.
+    #
+    # - Options available:
+    #  |=> @console: executes the command on the console.
+    #  |=> @delay <time in ticks>: adds a delay to the command.
+    #  |=> @proxy: runs the command on the proxy server (only if you are using one).
+    #  |=> @server <servers divided by ",">: executes the command only if the player is connected to a
+    #      list of specific servers (only if using a proxy server).
+    #
+    #      Example: @server lobby1,lobby2
+    #
+    commands-after-login:
+      #- "@console @proxy send @player lobby" # run in proxy console (bungee, velocity, etc.)
+
+    # Sets the list of allowed commands before authenticating.
+    allowed-commands:
+      - "/loginstaff"
+
+#     ___                                    _
+#    / _ \__ _ ___ _____      _____  _ __ __| |___
+#   / /_)/ _` / __/ __\ \ /\ / / _ \| '__/ _` / __|
+#  / ___/ (_| \__ \__ \\ V  V / (_) | | | (_| \__ \
+#  \/    \__,_|___/___/ \_/\_/ \___/|_|  \__,_|___/
+
+# Password settings.
+passwords:
+  # Sets the minimum password size.
+  small: 5
+
+  # Sets maximum password size.
+  large: 32
+
+  bruteforce:
+    # Sets the maximum number of incorrect attempts a player can make.
+    # - When using the value "1" the player will be disconnected immediately when he makes a mistake.
+    max-login-tries: 1
+
+    # Defines whether brute-force attacks will be punished automatically.
+    # - After too many incorrect attempts, the suspect IP address will be blocked.
+    auto-punish: true
+
+    # Sets the punishment time for a suspected brute force attack (in minutes).
+    punishment-duration: 15
+
+  hashing:
+    # Defines the hashing algorithm used.
+    #
+    # - Options available:
+    #
+    #  | The computational cost of hashings should increase (but not necessarily) from the bottom up.
+    #  |=> MD5
+    #  |=> SHA256
+    #  |=> SHA512
+    #  |=> BCRYPT2Y
+    #  |=> BCRYPT2A
+    #  |=> PBKDF2
+    #  |=> ARGON2ID
+    #  |=> ARGON2I
+    #  |=> ARGON2D
+    #
+    algorithm: "BCRYPT2A"
+
+    bcrypt:
+      rounds: 10
+
+    argon2:
+      iterations: 10
+      memory: 64
+      parallelism: 1
+
+#   __                      _ _
+#  / _\ ___  ___ _   _ _ __(_) |_ _   _
+#  \ \ / _ \/ __| | | | '__| | __| | | |
+#  _\ \  __/ (__| |_| | |  | | |_| |_| |
+#  \__/\___|\___|\__,_|_|  |_|\__|\__, |
+#                                 |___/
+
+# General security settings.
+security:
+  address-limiter:
+    # Sets whether the per-IP account limiter should be used.
+    # - This option can prevent fake accounts.
+    enabled: true
+
+    # Sets the maximum number of records per IP address.
+    limit: 3
+
+    # Defines the list of IPs that ignore the limitation.
+    bypass:
+      - '127.0.0.1'
+      - 'localhost'
+
+  # Sets the time for a player to authenticate (in seconds).
+  time-to-login: 45
+
+  # Sets whether high-risk nLogin commands will be disabled in-game.
+  # - This option can prevent hacking attacks that remove admin registration.
+  disable-high-risk-commands: true
+
+  # Set the regex for nickname validation.
+  nickname-regex: '([a-zA-Z0-9_]{3,16})'
+
+  # Sets whether the plugin should ignore the "This player is already online" check if the IP is the same as the one registered.
+  # - This feature is useful if the player loses connection with the server and tries to log in again.
+  bypass-online-check-with-same-address: false
+
+#     ___                                          _
+#    / __\___  _ __ ___  _ __ ___   __ _ _ __   __| |___
+#   / /  / _ \| '_ ` _ \| '_ ` _ \ / _` | '_ \ / _` / __|
+#  / /__| (_) | | | | | | | | | | | (_| | | | | (_| \__ \
+#  \____/\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_|___/
+
+# Command settings.
+commands:
+  changepass:
+    enabled: true
+    commands: [changepass, changepassword]
+    description: Command to change the registered password.
+  discord:
+    enabled: true
+    commands: [discord]
+    description: Command to control 2FA using Discord accounts.
+    permission: nlogin.command.discord
+  email:
+    enabled: true
+    commands: [email]
+    description: Command to control 2FA using email accounts.
+    permission: nlogin.command.email
+  login:
+    enabled: true
+    commands: [login, l, log]
+    description: Command to login on the server.
+  offline:
+    enabled: true
+    commands: [offline, cracked]
+    description: Command to mark your account as offline.
+  premium:
+    enabled: true
+    commands: [premium]
+    description: Command to mark your account as premium.
+  recover:
+    enabled: true
+    commands: [recover]
+    description: Command to recover access of registered accounts.
+  register:
+    enabled: true
+    commands: [register, reg]
+    description: Command to register an account.
+  unregister:
+    enabled: false
+    commands: [unregister]
+    description: Command to unregister.
