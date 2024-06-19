@@ -23,17 +23,20 @@ write "y" without " and MAKE SURE TO WRITE y
 * Limbo
 
 ## Commands for server
-```xml
+```bash
+cd server
 chmod +x server.sh
 ./server.sh
 ```
 ## Commands for velocity
-```xml
+```bash
+cd velocity
 chmod +x velocity.sh
 ./velocity.sh
 ```
 ## Commands for limbo
-```xml
+```bash
+cd limbo
 chmod +x limbo.sh
 ./limbo.sh
 ```
