@@ -10,7 +10,7 @@ To make the codespaces, make sure to access from https://github.com/codespaces.
 
 ## Installing Java
 ```bash
-sudo update -y & sudo full-upgrade -y & sudo autoremove -y & sudo auto-clean -y
+sudo apt update -y & sudo apt full-upgrade -y & sudo apt autoremove -y & sudo apt auto-clean -y
 ```
 ```bash
 sdk install java 17.0.9-amzn
