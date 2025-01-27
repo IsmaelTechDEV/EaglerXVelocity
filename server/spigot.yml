@@ -45,6 +45,8 @@ stats:
   disable-saving: false
   forced-stats: {}
 commands:
+  log: true
+  tab-complete: 0
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -53,8 +55,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
-  tab-complete: 0
 timings:
   enabled: true
   verbose: true

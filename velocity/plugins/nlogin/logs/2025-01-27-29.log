@@ -1,0 +1,35 @@
+[2025/01/27 12:35:41]: §9          __             _       
+[2025/01/27 12:35:41]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/01/27 12:35:41]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/01/27 12:35:41]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/01/27 12:35:41]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/01/27 12:35:41]: §9                  |___/            
+[2025/01/27 12:35:41]: §9 By: www.nickuc.com - V 10.3.28
+[2025/01/27 12:35:41]: §9 
+[2025/01/27 12:35:41]: §3[nLogin] [DEBUG] All settings were loaded in 206 ms.
+[2025/01/27 12:35:41]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/01/27 12:35:41]: §3[nLogin] [DEBUG] All plugin messages were loaded in 68 ms (languageByClient=false).
+[2025/01/27 12:35:41]: §3[nLogin] [DEBUG] All proxy settings were loaded in 7 ms.
+[2025/01/27 12:35:41]: §3[nLogin] [DEBUG] Loading database...
+[2025/01/27 12:35:41]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/01/27 12:35:47]: 
+[2025/01/27 12:35:47]:  §bThank you so much for choosing nLogin! §4<3
+[2025/01/27 12:35:47]: 
+[2025/01/27 12:35:47]:  §4For your safety, please read the message below:
+[2025/01/27 12:35:47]:   §cNever download nLogin from unknown sources.
+[2025/01/27 12:35:47]:   §cA modified version may contain malicious software.
+[2025/01/27 12:35:47]: 
+[2025/01/27 12:35:47]:  §3Trusted sources:
+[2025/01/27 12:35:47]:   §bwww.nickuc.com
+[2025/01/27 12:35:47]:   §bwww.github.com/nickuc
+[2025/01/27 12:35:47]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/01/27 12:35:47]: 
+[2025/01/27 12:35:47]:  §3Official support channels:
+[2025/01/27 12:35:47]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/01/27 12:35:47]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/01/27 12:35:47]:   §bEmail: §fsupport@nickuc.com
+[2025/01/27 12:35:47]:   §bYouTube: §fyoutube.com/nickuc
+[2025/01/27 12:35:47]: 
+[2025/01/27 12:35:47]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/01/27 12:35:47]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/01/27 12:35:47]: 
