@@ -120,3 +120,9 @@
 12:56:22.554 INFO  Limbo -- Unknown command. Type "help" to get commands list
 12:57:26.242 INFO  Limbo -- Stopping server...
 12:57:26.249 INFO  Limbo -- Server stopped, Goodbye!
+13:02:56.499 INFO  Limbo -- Starting server...
+13:02:58.078 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+13:03:47.566 INFO  Limbo -- Player yukiscratch44 connected (/127.0.0.1:51556) [V1_8]
+13:03:52.036 INFO  Limbo -- Player yukiscratch44 disconnected
+13:08:14.356 INFO  Limbo -- Stopping server...
+13:08:14.357 INFO  Limbo -- Server stopped, Goodbye!
