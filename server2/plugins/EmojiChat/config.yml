@@ -1,0 +1,165 @@
+# Configuration file for EmojiChat by RadBuilder
+
+# EmojiChat collects metrics in order to get a better understanding of what configurations are used.
+# Statistics include how many servers it's being used on and what version of Bukkit/Spigot they're using,
+# how many players are using it, server information such as Java version, how many emojis are used,
+# and how many servers are using each feature. This data is anonymous, and is submitted to understand what
+# types of server configurations are being used to build a better plugin (i.e. MC/Java versions to continue supporting,
+# features to keep/remove). Data collection has very little/no impact on server performance. I'd appreciate if you
+# keep this set to FULL, but I completely understand if you want to send less data or opt out.
+#
+# 'FULL'  collects what 'SOME' collects, and data on what config options you're using.
+# 'SOME'  collects what 'BASIC' collects, and what hooks you're using.
+# 'BASIC' collects data on what Java version you're using, Bukkit/Spigot version you're using, other general server
+#         information like player count, how many emojis you've used, and shortcuts you've used.
+# 'OFF'   collects NO DATA, however, I would appreciate it if you send at least basic data.
+metrics-collection: 'FULL'
+
+# If you're using chat color plugins, this will remove the coloring for emojis to be displayed correctly.
+fix-emoji-coloring: false
+
+# If emojis should be displayed on signs (shortcuts and full names supported).
+emojis-on-signs: false
+
+# If commands should have emojis (shortcuts and full names supported).
+emojis-in-commands: false
+# If emojis should ONLY work with commands in 'command-list'.
+only-command-list: false
+# If 'only-command-list' is true, the commands here will be the only commands where emojis are allowed.
+command-list:
+- '/msg'
+- '/tell'
+
+# If EmojiChat should auto download the ResourcePack. If you'd rather have your players manually
+# download or use /emojichat resourcepack, set this to false.
+download-resourcepack: true
+# The resource pack variant to use.
+# 1 replaces Korean characters with emojis, and 2 replaces Chinese characters with emojis.
+# WARNING: Changing this will ruin things like signs that already have the other language's characters!
+# Don't change this unless your normal language is being overwritten by emojis.
+# Variant 2 is now default because of https://bugs.mojang.com/browse/MC-41270 .
+pack-variant: 2
+# If the resource pack should be 'HD' (High Definition) or 'SD' (Standard Definition).
+# HD textures aren't compatible with Minecraft (not server) versions 1.13+,
+# and will result in emojis not being displayed correctly.
+# If you're using a server that supports any Minecraft versions including 1.13+, use SD.
+# Otherwise use HD for better quality.
+# The file size difference between HD and SD packs is extremely small, and shouldn't
+# be a factor when choosing which pack to use.
+pack-quality: 'SD'
+
+# Shortcuts will replace the items in the list with the correct emoji name.
+# For example, :) will be replaced with :grinning:, which then will turn it into the emoji.
+shortcuts:
+  grinning:
+  - ':)'
+  - '(:'
+  wink:
+  - ';)'
+  - '(;'
+  yum:
+  - ':P'
+  sunglasses:
+  - '8)'
+  neutral_face:
+  - ':|'
+  - '|:'
+  confused:
+  - ':\'
+  - ':/'
+  sob:
+  - ';('
+  - ');'
+  cry:
+  - ':('
+  - '):'
+  v:
+  - ':peace:'
+  - ':peace_hand:'
+  crazy_face:
+  - ':crazy:'
+  face_with_raised_eyebrow:
+  - ':hmm:'
+  shushing_face:
+  - ':shh:'
+  1st_place_medal:
+  - ':first:'
+  - ':1st:'
+  2nd_place_medal:
+  - ':second:'
+  - ':2nd:'
+  3rd_place_medal:
+  - ':third:'
+  - ':3rd:'
+  microphone:
+  - ':mic:'
+  musical_keyboard:
+  - ':piano:'
+  video_game:
+  - ':controller:'
+  dart:
+  - ':target:'
+  game_die:
+  - ':dice:'
+  - ':die:'
+  heart:
+  - '<3'
+  broken_heart:
+  - '</3'
+  zero:
+  - ':0:'
+  one:
+  - ':1:'
+  two:
+  - ':2:'
+  three:
+  - ':3:'
+  four:
+  - ':4:'
+  five:
+  - ':5:'
+  six:
+  - ':6:'
+  seven:
+  - ':7:'
+  eight:
+  - ':8:'
+  nine:
+  - ':9:'
+  keycap_ten:
+  - ':ten:'
+  - ':10:'
+  asterisk:
+  - ':*:'
+
+# If certain emojis should be disabled or not.
+# If true, it will disable all of the emojis specified in 'disabled-emojis'
+# If false, emojis specified in 'disabled-emojis' will be ignored.
+disable-emojis: true
+# Emojis to disable. Remove them from the list to enable them.
+# By default, profane and potentially offensive emojis are disabled.
+disabled-emojis:
+- ':fu:'
+- ':lips:'
+- ':tongue:'
+- ':bikini:'
+- ':kiss:'
+- ':sweat_drops:'
+- ':banana:'
+- ':cherries:'
+- ':peach:'
+- ':tomato:'
+- ':eggplant:'
+- ':cucumber:'
+- ':beer:'
+- ':beers:'
+- ':clinking_glasses:'
+- ':wine_glass:'
+- ':tumbler_glass:'
+- ':cocktail:'
+- ':face_with_symbols_over_mouth:'
+- ':face_vomiting:'
+
+# The config version, used to be able to update your config when future versions come out.
+# Don't change this, or you'll experience issues with EmojiChat.
+config-version: 5

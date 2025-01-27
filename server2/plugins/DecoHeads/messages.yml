@@ -1,0 +1,175 @@
+prefix: '&8[&b&lDecoHeads&8]&3 '
+
+# ------------------------------------------------------------------------------------------ #
+
+update-available: "&bDecoHeads v{0}&3 is available for update! Click below to download:\n \n&b{1}\n "
+
+# ------------------------------------------------------------------------------------------ #
+
+command:
+    no-permission: "&cYou need the permission '{0}' to do that!"
+    only-players: "&cOnly players in-game can use this command!"
+    not-a-decimal: "&c'{0}' is not a valid decimal number!"
+    decoheads:
+        usage: "Usage: &7/decoheads [search <text>]|[get <username>]|<page>"
+        invalid-page: "&cPage {0} does not exist (min: 1, max: {1})"
+        find:
+            usage: "Usage: &7/decoheads search <text>"
+            no-search: "&cYou must specify what to search for!"
+            no-heads-found: "No heads were found that matched '{0}'"
+        get:
+            usage: "Usage: &7/decoheads get <username>"
+            no-username: "&cYou must specify a username!"
+            given: "Gave you the head of '{0}'"
+            given-cost: "Gave you the head of '{0}' for {1}"
+    decoheadsadmin:
+        usage: "Usage: &7/decoheadsadmin reload|settings|editor|add|remove|disable"
+        reloaded: "&eConfig & settings reloaded"
+        add:
+            usage: "Usage: &7/decoheadsadmin add <name> <category> [cost]"
+            already-exists: "&cThe head '{0}' already exists!"
+            invalid-category: "&c'{0}' is not a valid category. Valid options:&6 {1}"
+            must-hold-head: "&cYou must hold the player head which you wish to add."
+            failed-to-retrieve-texture: "&cFailed to retrieve the head texture. You may need to place the head on the ground and then break it to get it to register."
+            added: "Added the head '{0}' to the category {1} with cost: {2}"
+            added-free: "Added the head '{0}' to the category {1} with no cost"
+        remove:
+            usage: "Usage: &7/decoheadsadmin remove <name>"
+            doesnt-exist: "&cThe head '{0}' cannot be removed because it does not exist!"
+            removed: "Removed the head '{0}'"
+        disable:
+            usage: "Usage: &7/decoheadsadmin disable <name>"
+            doesnt-exist: "&cThe head '{0}' cannot be disabled because it does not exist!"
+            disabled: "Disabled the head '{0}'"
+        enable:
+            usage: "Usage: &7/decoheadsadmin enable <name>"
+            doesnt-exist: "&cThe head '{0}' cannot be enabled because it does not exist!"
+            enabled: "Enabled the head '{0}'"
+
+# ------------------------------------------------------------------------------------------ #
+
+economy:
+    # 3.7 money -> "$3.7"
+    price-format: "${0}"
+    free: "free"
+    not-enough-money: "&cYou don't have {0}!"
+    failed: "&cFailed to withdraw {0}"
+
+# ------------------------------------------------------------------------------------------ #
+
+gui:
+    heads:
+        title: "&3&l&nDecoHeads"
+    categories:
+        title: "&3&l&nCategories"
+    settings:
+        title: "&3&l&nSettings"
+        custom-heads:
+            name: "Allow custom heads?"
+        custom-heads-cost:
+            name: "Custom heads cost"
+            prompt: "&ePlease enter a new custom head cost in chat:"
+            format: "&bCost: &a{0}"
+        economy:
+            name: "Use economy?"
+        show-free-heads:
+            name: "Show free heads?"
+        economy-default-cost:
+            name: "Default head cost"
+            prompt: "&ePlease enter a new default head cost in chat:"
+            format: "&bCost: &a{0}"
+        updater-enabled:
+          name: "Updater enabled?"
+
+    search:
+        prompt: "&ePlease enter a term to search for heads:"
+        searching: "&eSearching for '{0}'... please select a head"
+    editor:
+        title: "&3&l&nHead Editor"
+    head-editor:
+        title: "&3&l&n{0}"
+        properties:
+            name:
+                prompt: "&ePlease enter a new name for '{0}':"
+                success: "&eSet name to '{0}'"
+            category:
+                prompt: "&ePlease enter a new category for '{0}' ({1}):"
+                invalid: "&cThe category '{0}' is not valid!"
+                success: "&eSet category to '{0}'"
+            price:
+                prompt: "&ePlease enter a new price for '{0}' (-1 to use default):"
+                success: "&eSet price to {0}"
+
+
+# ------------------------------------------------------------------------------------------ #
+
+item:
+    name: "&8» &b&n{0}&8 «"
+    lore: "\n&7&oMade with DecoHeads\n "
+    cost: "\n&7Cost: &e{0}"
+
+# ------------------------------------------------------------------------------------------ #
+
+button:
+    categories:
+        category:
+            name: "&8» &3{0}&8 «"
+            lore: |
+                &7&oPress this button to
+                &7&oopen the heads GUI for
+                &7&othis category.
+        category-disabled:
+            name: "&8» &c{0}&8 «"
+            lore: |
+                &7&oYou don't have access
+                &7&oto this category.
+    heads:
+        next-page: "Next Page"
+        previous-page: "Previous Page"
+        current-page:
+            name: "&3Current page: &b{0}"
+            lore: |
+                &7&oUse the buttons to the
+                &7&oleft and right of this to
+                &7&ogo to different pages.
+            back: |
+
+                &7&oPress this to go back
+    editor:
+        search:
+            name: "&3Search"
+            lore: |
+                &7&oPress this to search for
+                &7&oa head to edit.
+    head-editor:
+        name: "&3Change Name"
+        category: "&3Change Category"
+        price: "&3Change Price"
+        current-settings:
+            name: "&3Currently editing: &b{0}"
+            lore: |
+                &7UUID: &b{1}
+                &7Category: &b{2}
+                &7Price: &b{3} (real: {4})
+
+
+# ------------------------------------------------------------------------------------------ #
+
+category:
+    food: "Food"
+    tech: "Technology"
+    letters: "Letters & Symbols"
+    colors: "Colors"
+    mini-blocks: "Miniature Blocks"
+    household-items: "Household Items"
+    mobs: "Mobs & Animals"
+    characters: "Characters & Video Games"
+    pokemon: "Pokémon"
+    flags: "Flags"
+    emoji: "Emoticons"
+    misc: "Miscellaneous"
+
+# ------------------------------------------------------------------------------------------ #
+
+# Don't change this number unless you want your config to reset
+version: 3

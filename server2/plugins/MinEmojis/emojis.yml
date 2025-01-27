@@ -1,0 +1,55 @@
+# --------------------- Emojis aliases configuration ---------------------
+# Remember to always add the ' ' around your aliases.
+# The plugin may remove the ' ' or add quotation marks.
+# If you want to add more than one alias use commas, like the emoji 'sob'.
+# -------------------------------------------------------------------------
+
+emoji-aliases:
+  point_left: ''
+  ok_hand: ''
+  yum: :P
+  star2: ''
+  dizzy_face: x.x
+  scream: ''
+  boom: ''
+  heart: <3
+  sunglasses: 8),B)
+  punch: ''
+  confused: :/
+  kissing_heart: :*
+  worried: :(
+  star: ''
+  smiling_imp: ''
+  thumbsup: ''
+  point_down: ''
+  blue_heart: ''
+  sweat: '''-'''
+  point_right: ''
+  stuck_out_tongue_closed_eyes: '><'
+  point_up: ''
+  sob: ;-;,T.T
+  musical_note: ''
+  expressionless: -_-
+  shit: ''
+  innocent: ''
+  zzz: zzz
+  sparkles: ''
+  broken_heart: </3
+  cupid: ''
+  imp: ''
+  blush: :)
+  heart_eyes: s2
+  flushed: O.O
+  unamused: ��
+  fire: ''
+  kiss: ''
+  trollface: trollface
+  thumbsdown: ''
+  open_mouth: :O
+  rage: '>:'
+  raised_hands: ''
+  smile: :D
+  wink: ;)
+  eyes: '*.*'
+  pray: ''
+  anguished: 'D:'

@@ -1,0 +1,3 @@
+# The directory where your server's plugins are located
+install-directory: plugins
+update-directory: plugins/update

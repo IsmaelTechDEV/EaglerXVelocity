@@ -1,0 +1,31 @@
+download-help-lines:
+- '&6[&2MinEmojis&6] &aInstallation Guide:'
+- '&7- Download from this link: &6http://tinyurl.com/p3bhzrx'
+- '&7- Copy the downloaded file to your &6.minecraft/resourcepacks'
+- '&7- Activate the emojis on &6Options&7>&6Resource Packs'
+- '&7- See all available emojis using &6/emojis list'
+strings:
+  plugin-tag: '&6[&2MinEmojis&6] &7'
+  default-color: '&7'
+  shortcut: '&bShortcut: &7'
+  noperm: '&cYou dont have permission to use this command!'
+  installing: '&7Wait until the installation is completed...'
+  installed: '&7Emojis installed with success! Now use &6/emojis list &7to see all
+    available emojis for you.'
+  disabling: '&7To see our emojis you need to install fist. We will disable for you!'
+  error: '&7Theres an error on install emojis and we will disable for you!'
+  emojis:
+    enabled: '&aEmojis enabled for you!'
+    disabled: '&cEmojis disabled for you!'
+  setsign:
+    usage: '&cUsage: /emoji setsign <sign line> <text>'
+    nolines: '&cThe sign lines need to be from 1 to 4'
+    setline-to: '&aAdded text to line {line}: &r{text}&a. Add more lines or click
+      on sign to paste the text.'
+    no-sign: '&cThis is not a sign!'
+  commands:
+    install: '&2/{cmd} install &b- &7Temporary install emojis'
+    download: '&2/{cmd} download &b- &7Show how to download emojis'
+    enable: '&2/{cmd} on/off &b- &7Enable/disable send emojis'
+    setsign: '&2/{cmd} setsign <line> <text> &b- &7Edit sign with emojis'
+    list: '&2/{cmd} list &b- &7List all emojis available for you'
