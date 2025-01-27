@@ -74,4 +74,4 @@ redirect:
     # Defines which servers the players should be forwarded to.
     # - When entering more than one item, the server will be chosen randomly.
     servers:
-      - "survival"
+      - "server"
