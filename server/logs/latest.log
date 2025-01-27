@@ -392,3 +392,46 @@ Caused by: java.lang.ClassNotFoundException: me.clip.placeholderapi.expansion.Pl
 [12:35:50] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
 [12:35:51] [Thread-21/INFO]: [CommandTimer] Checking for update...
 [12:35:51] [Thread-21/INFO]: [CommandTimer] Update found!
+[12:37:40] [User Authenticator #1/INFO]: UUID of player yukiscratch44 is 52324a8a-b387-333d-b752-d3077aee73e2
+[12:37:40] [Server thread/INFO]: yukiscratch44[/[0:0:0:0:0:0:0:1]:38344] logged in with entity id 69 at ([world]0.37593502121838496, 4.0, 0.3570540954737119)
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: [DecoHeads] Failed to get resource info from spiget.org
+java.io.FileNotFoundException: http://api.spiget.org/v2/resources/24655?ut=1737981460644
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1996) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at me.rayzr522.decoheads.lib.updater.SpigetUpdateAbstract$1.run(SpigetUpdateAbstract.java:92) [DecoHeads-1.5.1.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: java.lang.ClassNotFoundException: Could not find org.bukkit.craftbukkit.advancement.CraftAdvancement
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.fixBukkitClass(NMSUtil.java:130)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at github.scarsz.discordsrv.util.NMSUtil.<clinit>(NMSUtil.java:78)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.getAvatarUrl(DiscordSRV.java:2089)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at github.scarsz.discordsrv.DiscordSRV.sendJoinMessage(DiscordSRV.java:1934)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at github.scarsz.discordsrv.listeners.PlayerJoinLeaveListener.lambda$onPlayerJoin$1(PlayerJoinLeaveListener.java:94)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+
+[12:37:41] [Craft Scheduler Thread - 0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[12:37:50] [Server thread/INFO]: yukiscratch44 issued server command: /gamemode c
+[12:37:50] [Server thread/INFO]: [yukiscratch44: Set own game mode to Creative Mode]
+[12:38:59] [Server thread/INFO]: yukiscratch44 lost connection: Disconnected
+[12:38:59] [Server thread/INFO]: yukiscratch44 left the game.
+[12:38:59] [Thread-1/INFO]: Stopping server
+[12:38:59] [Server thread/INFO]: Stopping the server
