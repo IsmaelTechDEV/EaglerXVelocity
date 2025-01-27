@@ -1,0 +1,337 @@
+[06:33:10] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[06:33:10] [Server thread/INFO]: Loading properties
+[06:33:10] [Server thread/INFO]: Default game type: CREATIVE
+[06:33:10] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-119 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 858ab0f)
+[06:33:10] [Server thread/INFO]: Debug logging is disabled
+[06:33:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[06:33:10] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[06:33:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:33:10] [Server thread/INFO]: Data value allowed items: 
+[06:33:11] [Server thread/INFO]: Generating keypair
+[06:33:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:33:11] [Server thread/INFO]: Using default channel type
+[06:33:11] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[06:33:11] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.12.0
+[06:33:11] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.32-SNAPSHOT (build 3188)
+[06:33:11] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[06:33:11] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v2.99
+[06:33:11] [Server thread/INFO]: [Lift] Loading Lift v55
+[06:33:11] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
+[06:33:11] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.0.0
+[06:33:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.0 is now loaded. Registering protocol transformers and injecting...
+[06:33:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:33:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:33:12] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:33:12] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:33:13] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[06:33:13] [Server thread/INFO]: [DecoHeads] Loading DecoHeads v1.5.1
+[06:33:13] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v5.0.0
+[06:33:13] [Server thread/INFO]: [CommandTimer] Loading CommandTimer v8.7.5
+[06:33:13] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v4.0.0
+[06:33:13] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.134
+[06:33:13] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading ViaRewind-Legacy-Support v1.5.1
+[06:33:13] [Server thread/INFO]: [LPC] Loading LPC v3.6.0
+[06:33:13] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v21.03.26-5ff3a9b-1286-22.3.9
+[06:33:14] [Server thread/WARN]: java.io.IOException: Server returned HTTP response code: 525 for URL: https://addons.cursecdn.com/files/2431/372/worldedit-bukkit-6.1.7.2.jar
+
+[06:33:14] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2000)
+
+[06:33:14] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+
+[06:33:14] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+
+[06:33:14] [Server thread/WARN]: 	at com.boydti.fawe.util.Jars.download(Jars.java:48)
+
+[06:33:14] [Server thread/WARN]: 	at com.boydti.fawe.bukkit.BukkitMain.onEnable(BukkitMain.java:62)
+
+[06:33:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+
+[06:33:14] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)
+
+[06:33:14] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:454)
+
+[06:33:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:393)
+
+[06:33:14] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:352)
+
+[06:33:14] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:237)
+
+[06:33:14] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:603)
+
+[06:33:14] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.lambda$spin$0(MinecraftServer.java:133)
+
+[06:33:14] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+
+[06:33:14] [Server thread/INFO]: (FAWE) ====== INSTALL WORLDEDIT ======
+
+[06:33:14] [Server thread/INFO]: (FAWE) FAWE requires WorldEdit to function correctly
+
+[06:33:14] [Server thread/INFO]: (FAWE) Info: https://github.com/boy0001/FastAsyncWorldedit/releases/
+
+[06:33:14] [Server thread/INFO]: (FAWE) ===============================
+
+[06:33:14] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.0
+[06:33:14] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.134
+[06:33:14] [Server thread/INFO]:         __    
+[06:33:14] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.134
+[06:33:14] [Server thread/INFO]:   |___ |      Running on Bukkit - PandaSpigot
+[06:33:14] [Server thread/INFO]: 
+[06:33:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:33:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:33:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:33:15] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:33:15] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1305ms)
+[06:33:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:33:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:33:15] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[06:33:15] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[06:33:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:33:15] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[06:33:15] [Server thread/INFO]: Preparing level "world"
+[06:33:15] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:33:15] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:33:15] [Server thread/INFO]: Clear tick list: false
+[06:33:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:33:15] [Server thread/INFO]: Mob Spawn Range: 4
+[06:33:15] [Server thread/INFO]: Anti X-Ray: true
+[06:33:15] [Server thread/INFO]: 	Engine Mode: 1
+[06:33:15] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:33:15] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:33:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:33:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:33:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:33:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:33:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:33:15] [Server thread/INFO]: Random Lighting Updates: false
+[06:33:15] [Server thread/INFO]: Structure Info Saving: true
+[06:33:15] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:33:15] [Server thread/INFO]: Max Entity Collisions: 8
+[06:33:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:33:15] [Server thread/INFO]: Max TNT Explosions: 100
+[06:33:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:33:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:33:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:33:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:33:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:33:15] [Server thread/INFO]: View Distance: 10
+[06:33:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:33:15] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:33:15] [Server thread/INFO]: Keep spawn chunk loaded: true
+[06:33:15] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[06:33:15] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[06:33:15] [Server thread/INFO]: World async lighting: false
+[06:33:15] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[06:33:15] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[06:33:15] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[06:33:15] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[06:33:15] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[06:33:15] [Server thread/INFO]: Water over lava flow speed: 5
+[06:33:15] [Server thread/INFO]: Fix TNT cannons: false
+[06:33:15] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[06:33:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:33:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:33:17] [Server thread/INFO]: Clear tick list: false
+[06:33:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:33:17] [Server thread/INFO]: Mob Spawn Range: 4
+[06:33:17] [Server thread/INFO]: Anti X-Ray: true
+[06:33:17] [Server thread/INFO]: 	Engine Mode: 1
+[06:33:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:33:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:33:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:33:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:33:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:33:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:33:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:33:17] [Server thread/INFO]: Random Lighting Updates: false
+[06:33:17] [Server thread/INFO]: Structure Info Saving: true
+[06:33:17] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:33:17] [Server thread/INFO]: Max Entity Collisions: 8
+[06:33:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:33:17] [Server thread/INFO]: Max TNT Explosions: 100
+[06:33:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:33:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:33:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:33:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:33:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:33:17] [Server thread/INFO]: View Distance: 10
+[06:33:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:33:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:33:17] [Server thread/INFO]: Keep spawn chunk loaded: true
+[06:33:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[06:33:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[06:33:17] [Server thread/INFO]: World async lighting: false
+[06:33:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[06:33:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[06:33:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[06:33:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[06:33:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[06:33:17] [Server thread/INFO]: Water over lava flow speed: 5
+[06:33:17] [Server thread/INFO]: Fix TNT cannons: false
+[06:33:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[06:33:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:33:18] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:33:18] [Server thread/INFO]: Clear tick list: false
+[06:33:18] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:33:18] [Server thread/INFO]: Mob Spawn Range: 4
+[06:33:18] [Server thread/INFO]: Anti X-Ray: true
+[06:33:18] [Server thread/INFO]: 	Engine Mode: 1
+[06:33:18] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:33:18] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:33:18] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:33:18] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:33:18] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:33:18] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:33:18] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:33:18] [Server thread/INFO]: Random Lighting Updates: false
+[06:33:18] [Server thread/INFO]: Structure Info Saving: true
+[06:33:18] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:33:18] [Server thread/INFO]: Max Entity Collisions: 8
+[06:33:18] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:33:18] [Server thread/INFO]: Max TNT Explosions: 100
+[06:33:18] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:33:18] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:33:18] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:33:18] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:33:18] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:33:18] [Server thread/INFO]: View Distance: 10
+[06:33:18] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:33:18] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:33:18] [Server thread/INFO]: Keep spawn chunk loaded: true
+[06:33:18] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[06:33:18] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[06:33:18] [Server thread/INFO]: World async lighting: false
+[06:33:18] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[06:33:18] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[06:33:18] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[06:33:18] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[06:33:18] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[06:33:18] [Server thread/INFO]: Water over lava flow speed: 5
+[06:33:18] [Server thread/INFO]: Fix TNT cannons: false
+[06:33:18] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[06:33:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: -1371041433105306628)
+[06:33:19] [Server thread/INFO]: Preparing spawn area: 74%
+[06:33:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: -1371041433105306628)
+[06:33:20] [Server thread/INFO]: Preparing spawn area: 9%
+[06:33:21] [Server thread/INFO]: Preparing spawn area: 17%
+[06:33:22] [Server thread/INFO]: Preparing spawn area: 36%
+[06:33:23] [Server thread/INFO]: Preparing spawn area: 47%
+[06:33:24] [Server thread/INFO]: Preparing spawn area: 71%
+[06:33:25] [Server thread/INFO]: Preparing start region for level 2 (Seed: -1371041433105306628)
+[06:33:26] [Server thread/INFO]: Preparing spawn area: 74%
+[06:33:26] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.12.0
+[06:33:26] [Server thread/INFO]: CoreProtect version 2.12.0 is enabled!
+
+[06:33:26] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+
+[06:33:26] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3188)
+[06:33:26] [Server thread/INFO]: [Citizens] Loading external libraries
+[06:33:27] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v2.99
+[06:33:27] [Server thread/INFO]: [ImageOnMap] Loaded 0 player map files.
+[06:33:27] [Server thread/INFO]: [Lift] Enabling Lift v55
+[06:33:27] [Server thread/INFO]: Lift v55 is now enabled!
+
+[06:33:27] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[06:33:27] [Server thread/INFO]: HikariPool-1 - Starting...
+[06:33:27] [Server thread/INFO]: HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[06:33:27] [Server thread/INFO]: HikariPool-1 - Start completed.
+[06:33:27] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.3.0
+|   Storage: HSQLDB (local)
+| Support:
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Twitter: @LeokoGar
+| Update:
+|   You have the newest version
+[]================================[]
+ 
+[06:33:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.0
+[06:33:27] [Server thread/INFO]: [DecoHeads] Enabling DecoHeads v1.5.1
+[06:33:27] [Server thread/WARN]: [DecoHeads] Failed to find an economy plugin! Disabling economy mode, please re-enable once you have installed an economy plugin.
+[06:33:27] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.0
+[06:33:27] [Server thread/INFO]: [CommandTimer] Enabling CommandTimer v8.7.5
+[06:33:28] [Server thread/INFO]: [CommandTimer] Server time : 06:33:28
+[06:33:28] [Server thread/INFO]: [CommandTimer] Server day : SUNDAY
+[06:33:28] [Server thread/INFO]: [CommandTimer] 8.7.5 loaded!
+[06:33:28] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.1
+[06:33:28] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[06:33:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:33:28] [Server thread/INFO]: Done (12.723s)! For help, type "help" or "?"
+[06:33:28] [Server thread/INFO]: Timings Reset
+[06:33:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[06:33:28] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[06:33:28] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[06:33:28] [Craft Scheduler Thread - 0/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[06:33:28] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.0.0
+[06:33:28] [Thread-9/INFO]: [CommandTimer] Checking for update...
+[06:33:28] [Thread-9/INFO]: [CommandTimer] Update found!
+[06:33:32] [User Authenticator #1/INFO]: UUID of player yukiscratch44 is 52324a8a-b387-333d-b752-d3077aee73e2
+[06:33:33] [Server thread/INFO]: yukiscratch44[/[0:0:0:0:0:0:0:1]:42068] logged in with entity id 38 at ([world]-236.5, 4.0, -440.5)
+[06:33:33] [Craft Scheduler Thread - 1/WARN]: [DecoHeads] Failed to get resource info from spiget.org
+java.io.FileNotFoundException: http://api.spiget.org/v2/resources/24655?ut=1737873213025
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1996) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at me.rayzr522.decoheads.lib.updater.SpigetUpdateAbstract$1.run(SpigetUpdateAbstract.java:92) [DecoHeads-1.5.1.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[06:33:45] [Server thread/INFO]: yukiscratch44 issued server command: /gamerule doDaylightCycle false
+[06:33:45] [Server thread/INFO]: [yukiscratch44: Game rule has been updated]
+[06:33:49] [Server thread/INFO]: yukiscratch44 issued server command: /time set 0
+[06:33:49] [Server thread/INFO]: [yukiscratch44: Set the time to 0]
+[06:33:50] [Server thread/INFO]: yukiscratch44 issued server command: /pl
+[06:33:53] [Server thread/INFO]: yukiscratch44 issued server command: /dh
+[06:34:05] [Server thread/INFO]: yukiscratch44 issued server command: /clear
+[06:34:05] [Server thread/INFO]: [yukiscratch44: Cleared the inventory of yukiscratch44, removing 1 items]
+[06:34:08] [Server thread/INFO]: yukiscratch44 issued server command: /tp 0 4 0
+[06:34:08] [Server thread/INFO]: [yukiscratch44: Teleported yukiscratch44 to 0.5, 4.0, 0.5]
+[06:34:10] [Server thread/INFO]: yukiscratch44 issued server command: /spawnpoint
+[06:34:10] [Server thread/INFO]: [yukiscratch44: Set yukiscratch44's spawn point to (0, 4, 0)]
+[06:34:12] [Server thread/INFO]: yukiscratch44 issued server command: /setworldspawn
+[06:34:12] [Server thread/INFO]: [yukiscratch44: Set the world spawn point to (0, 4, 0)]
+[06:34:19] [Server thread/INFO]: yukiscratch44 issued server command: /alert
+[06:34:50] [Server thread/INFO]: yukiscratch44 lost connection: Disconnected
+[06:34:50] [Server thread/INFO]: yukiscratch44 left the game.
+[06:34:59] [User Authenticator #2/INFO]: UUID of player yukiscratch44 is 52324a8a-b387-333d-b752-d3077aee73e2
+[06:34:59] [Server thread/INFO]: yukiscratch44[/[0:0:0:0:0:0:0:1]:58748] logged in with entity id 39 at ([world]0.5, 4.0, 0.5)
+[06:35:00] [Craft Scheduler Thread - 1/WARN]: [DecoHeads] Failed to get resource info from spiget.org
+java.io.FileNotFoundException: http://api.spiget.org/v2/resources/24655?ut=1737873299608
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1996) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at me.rayzr522.decoheads.lib.updater.SpigetUpdateAbstract$1.run(SpigetUpdateAbstract.java:92) [DecoHeads-1.5.1.jar:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) [patched_1.8.8.jar:git-PandaSpigot-119]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]

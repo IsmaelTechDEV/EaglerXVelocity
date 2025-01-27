@@ -1,0 +1,18 @@
+custom-heads:
+    # Allow getting custom heads by username?
+    enabled: true
+    # The cost for custom heads that are retrieved by username.
+    cost: 0.0
+
+economy:
+    # Use economy?
+    enabled: false
+    # Show heads that have no cost?
+    show-free-heads: false
+    # Default cost for heads. This is used when the cost of a head is set to -1.
+    default-cost: 0.0
+
+# Check for updates?
+updater-enabled: true
+
+version: 1

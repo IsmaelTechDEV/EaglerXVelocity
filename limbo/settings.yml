@@ -13,7 +13,7 @@ maxPlayers: 200
 
 # Server's data in servers list
 ping:
-  description: '{"text": "&9NanoLimbo"}'
+  description: '{"text": "&9Limbo"}'
   version: 'NanoLimbo'
   # Return static protocol version number in ping result
   # By default, its -1 to return the client version if it supported
@@ -34,7 +34,7 @@ playerList:
 headerAndFooter:
   enable: false
   header: '{"text": "&eWelcome!"}'
-  footer: '{"text": "&9NanoLimbo"}'
+  footer: '{"text": "&9Limbo"}'
 
 # Setup player's game mode
 # 0 - Survival
@@ -48,7 +48,7 @@ gameMode: 3
 # For 1.13+ clients
 brandName:
   enable: true
-  content: 'NanoLimbo'
+  content: 'Limbo'
 
 # Message sends when player joins to the server
 joinMessage:
@@ -73,7 +73,7 @@ title:
   # Set title text value empty, if you need only subtitle
   title: '{"text": "&9&lWelcome!"}'
   # Set subtitle text value empty, if you need only title
-  subtitle: '{"text": "&6NanoLimbo"}'
+  subtitle: '{"text": "&6Limbo"}'
   # Fade in time in ticks (1 sec = 20 ticks)
   fadeIn: 10
   # Stay time in ticks

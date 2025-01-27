@@ -45,8 +45,6 @@ stats:
   disable-saving: false
   forced-stats: {}
 commands:
-  log: true
-  tab-complete: 0
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -55,6 +53,8 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
+  tab-complete: 0
 timings:
   enabled: true
   verbose: true
@@ -72,7 +72,6 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
-    nerf-spawner-mobs: false
     mob-spawn-range: 4
     anti-xray:
       enabled: true
@@ -94,6 +93,7 @@ world-settings:
       replace-blocks:
       - 1
       - 5
+    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -133,9 +133,9 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     view-distance: 10
     hanging-tick-frequency: 100

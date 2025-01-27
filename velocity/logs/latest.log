@@ -1,0 +1,186 @@
+[05:40:33] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-e60e2063-b399)...
+[05:40:33] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[05:40:34] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 1.1.x (Linux x86_64) ciphers
+[05:40:34] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[05:40:34] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>      EAGLERCRAFTXVELOCITY WARNING:
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This plugin wasn't tested to be 'working'
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  with ANY version of Velocity (and forks)
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  apart from the versions listed below:
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  - Velocity: 3.3.0-SNAPSHOT:e60e2063:b399
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  This is not a Bukkit/Spigot plugin!
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  Use "-Deaglerxvelocity.stfu=true" to hide
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>  
+[05:40:35] [main/ERROR] [com.velocitypowered.proxy.console.VelocityConsole]: :>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>:>
+[05:40:35] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin eaglerxvelocity 1.0.5 by lax1dude, ayunami2000
+[05:40:35] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nlogin 10.3.27 by NickUC
+[05:40:35] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[05:40:35] [Velocity Async Event Executor - #0/WARN] [eaglerxvelocity]: This plugin is still in development, certain features may not be functional!
+[05:40:35] [Velocity Async Event Executor - #0/WARN] [eaglerxvelocity]: Not recommended for public servers yet, please check for updates
+[05:40:35] [Velocity Async Event Executor - #0/ERROR] [eaglerxvelocity]: Online mode is set to false! Authentication system has been disabled
+[05:40:35] [Netty epoll Boss #0/INFO] [eaglerxvelocity]: Eaglercraft is listening on: /0.0.0.0:8081
+[05:40:35] [Velocity Async Event Executor - #0/INFO] [eaglerxvelocity]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
+[05:40:35] [Velocity Async Event Executor - #0/INFO] [eaglerxvelocity]: Voice chat disabled, add "allow_voice: true" to your listeners to enable
+[05:40:36] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Downloading new certificate: https://eaglercraft.com/backup.cert
+[05:40:37] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/EaglerXVelocity/velocity/plugins/eaglerxvelocity/eagcert/$dl.45feefdfd669a5fdd21624b7321a189a83c9fc57.cert
+[05:40:37] [EaglerXVelocity: Network Tick Tasks/INFO] [eaglerxvelocity]: Loaded certificate: /workspaces/EaglerXVelocity/velocity/plugins/eaglerxvelocity/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [nlogin]: Successful plugin core start (took 0.81s)
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:           __             _       
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   _ __   / /  ___   __ _(_)_ __  
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  | | | / /__| (_) | (_| | | | | |
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  |_| |_\____/\___/ \__, |_|_| |_|
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:                   |___/            
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  By: www.nickuc.com - V 10.3.27
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  
+[05:40:38] [Velocity Async Event Executor - #0/INFO] [nlogin]: Generating RSA keypair... (this may take a while)
+[05:40:40] [nLogin - Task Executor #0/INFO] [nlogin]: Download finished (took 2376ms, hash = bcdd0d07f4e3098e91cba27994818024b78ad4e137c7b7eb64a04b4aa8b23c2b)
+[05:40:41] [Velocity Async Event Executor - #0/INFO] [nlogin]: The RSA key pair was successfully generated. Took 2.06s
+[05:40:41] [Netty epoll Boss #1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0%0]:25577
+[05:40:41] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (8.72s)!
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Thank you so much for choosing nLogin! <3
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  For your safety, please read the message below:
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Never download nLogin from unknown sources.
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   A modified version may contain malicious software.
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Trusted sources:
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.nickuc.com
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   www.github.com/nickuc
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   OpeNLogin installer (from Spigot or GitHub)
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  Official support channels:
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Discord group: www.nickuc.com/discord
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Documentation: docs.nickuc.com/nlogin/
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   Email: support@nickuc.com
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   YouTube: youtube.com/nickuc
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:  and click the "Setup plugin" button to configure your plugin.
+[05:40:46] [nLogin - Task Executor #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[05:42:02] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:54652]: Connected via websocket
+[05:42:02] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:54652]: Origin header is null
+[05:42:02] [Netty epoll Worker #2/INFO] [eaglerxvelocity]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652) has connected
+[05:42:03] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[05:42:09] [nLogin - Task Executor #0/INFO] [nlogin]: The user yukiscratch44 has successfully registered.
+[05:42:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[05:42:09] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[05:43:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652): kicked from server survival: Server closed
+[05:43:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[05:43:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[05:43:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[05:43:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[05:45:50] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@1a471a24
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[05:45:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[05:45:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[05:45:53] [Netty epoll Worker #2/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652): unable to connect to server survival
+io.netty.channel.AbstractChannel$AnnotatedConnectException: finishConnect(..) failed: Connection refused: /0.0.0.0:25565
+Caused by: java.net.ConnectException: finishConnect(..) failed: Connection refused
+	at io.netty.channel.unix.Errors.newConnectException0(Errors.java:166) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.channel.unix.Errors.handleConnectErrno(Errors.java:131) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.channel.unix.Socket.finishConnect(Socket.java:359) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.doFinishConnect(AbstractEpollChannel.java:711) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.finishConnect(AbstractEpollChannel.java:688) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollOutReady(AbstractEpollChannel.java:567) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-e60e2063-b399)]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[05:46:16] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[05:46:17] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[05:51:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652): kicked from server survival: Server closed
+[05:51:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[05:51:06] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[05:52:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[05:52:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[05:54:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652): kicked from server survival: Server closed
+[05:54:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[05:54:49] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[05:55:29] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[05:55:29] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[05:59:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652): kicked from server survival: Server closed
+[05:59:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[05:59:00] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[05:59:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[05:59:11] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:00:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:00:36] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:00:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652): kicked from server lobby: An internal server connection error occurred.
+[06:00:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:00:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:54652) has disconnected: You were kicked from lobby: An internal server connection error occurred.
+[06:00:57] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43744]: Connected via websocket
+[06:00:57] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:43744]: Origin header is null
+[06:00:58] [Netty epoll Worker #3/INFO] [eaglerxvelocity]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:43744) has connected
+[06:00:58] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:01:02] [nLogin - Task Executor #0/INFO] [nlogin]: The user yukiscratch44 has successfully logged in.
+[06:01:02] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:01:02] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:01:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:01:05] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:01:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:01:07] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:01:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:01:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:01:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:01:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:01:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:01:14] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:01:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:01:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:04:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:43744): kicked from server survival: Server closed
+[06:04:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:04:30] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:04:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:04:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:04:37] [Netty epoll Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:43744): unable to connect to server survival
+com.velocitypowered.proxy.util.except.QuietRuntimeException: The connection to the remote server was unexpectedly closed.
+This is usually because the remote server does not have BungeeCord IP forwarding correctly enabled.
+See https://velocitypowered.com/wiki/users/forwarding/ for instructions on how to configure player info forwarding correctly.
+[06:04:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:04:55] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:10:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:43744): kicked from server survival: Server closed
+[06:10:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:10:04] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:12:00] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:12:00] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:18:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:43744) has disconnected
+[06:18:17] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:29:36] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57464]: Connected via websocket
+[06:29:36] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:57464]: Origin header is null
+[06:29:36] [Netty epoll Worker #0/INFO] [eaglerxvelocity]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:57464) has connected
+[06:29:36] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:29:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:57464) has disconnected: You entered the incorrect password.
+[06:29:41] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:29:45] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55140]: Connected via websocket
+[06:29:45] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [/[0:0:0:0:0:0:0:1%0]:55140]: Origin header is null
+[06:29:45] [Netty epoll Worker #1/INFO] [eaglerxvelocity]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:55140) has connected
+[06:29:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:29:50] [nLogin - Task Executor #0/INFO] [nlogin]: The user yukiscratch44 has successfully logged in.
+[06:29:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:29:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:30:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:55140): kicked from server survival: Server closed
+[06:30:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:30:55] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:31:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:31:33] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:33:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] yukiscratch44 (/[0:0:0:0:0:0:0:1%0]:55140): kicked from server survival: Server closed
+[06:33:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:33:06] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:33:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:33:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
+[06:34:25] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: This command does not exist.
+[06:34:42] [Velocity Async Event Executor - #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: /send <player> <server>
+[06:34:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has connected
+[06:34:50] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has disconnected
+[06:34:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> survival has connected
+[06:34:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] yukiscratch44 -> lobby has disconnected
