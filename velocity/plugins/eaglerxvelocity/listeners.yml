@@ -7,7 +7,7 @@ listener_01:
   redirect_legacy_clients_to: 'null'
   server_icon: server-icon.png
   server_motd:
-  - '&1IsmaelTech Guide'
+ -'&1q13x Anarchy Server (WIP)'
   allow_motd: true
   allow_query: true
   request_motd_cache:

@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "891a97b3-47bc-3a0b-8b2e-f8b633d151f2",
+    "name": "Putinn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,8 @@
+00:27:47.334 INFO  Limbo -- Starting server...
+00:27:47.984 INFO  Limbo -- Server started on localhost/127.0.0.1:65535
+00:49:32.854 INFO  Limbo -- Unknown command. Type "help" to get commands list
+00:49:40.359 INFO  Limbo -- Unknown command. Type "help" to get commands list
+00:49:45.625 INFO  Limbo -- Player Putinn connected (/127.0.0.1:51180) [V1_8]
+00:49:52.369 INFO  Limbo -- Player Putinn disconnected
+01:00:10.571 INFO  Limbo -- Player Putinn connected (/127.0.0.1:52076) [V1_8]
+01:00:19.453 INFO  Limbo -- Player Putinn disconnected
